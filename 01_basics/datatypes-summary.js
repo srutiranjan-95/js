@@ -20,3 +20,31 @@ const bigNumber = 12345678456789n
 // Reference (Non primitive)
 
 //Array, Objects, Functions
+
+//=========================================================
+
+
+//Stack (Primitive)
+
+//Heap (Non-Primitive)
+
+let myYoutubename = "bubu"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "sruti@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "bubu@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
